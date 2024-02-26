@@ -16,7 +16,7 @@ mongoose
 //Middleware--
 app.use(express.json());
 
-// Routes
+// Routes--
 app.use("/api/auth", require("./routes/authRoutes"));
 
 //Start the server
